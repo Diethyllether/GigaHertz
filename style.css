@@ -1,0 +1,162 @@
+/* Fonte */
+@font-face {
+    font-family: "JetBrains Mono";
+    src: 
+    url("Fonts/JetBrainsMonoNerdFontMono-Regular.ttf") format("truetype"),
+    url("Fonts/JetBrainsMonoNerdFontMono-Regular.woff2") format("woff2");
+}
+
+* {
+    font-family: "JetBrains Mono", monospace;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #2e3440;
+}
+
+header {
+    background-color: #3B4252;
+    
+}
+
+hr {
+    border: 3px black solid;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+input[name="pesquisa"] {
+    background-image: url("assets/pesquisaIcon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 4%;
+    text-align: right;
+    border-radius: 90px;
+    display: block;
+    width: 98%;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#table1, #table3, #table4 {
+    text-align: left;
+}
+
+#table2, #table3 {
+    height: 98vh;
+}
+
+#table2 {
+    text-align: center;
+}
+
+#table4 {
+    height: 50vh;
+}
+
+#table5 {
+    height: 35vh;
+}
+
+#linha1 td:not(#tdPesquisa){
+    height: 65px;
+}
+
+#logo {
+    height: 65px;
+}
+
+.centro {
+    text-align: center;
+}
+
+.direita {
+    text-align: right;
+}
+
+#suporteIcon {
+    width: 30px;
+}
+
+#linha2 td{
+    height: 87px;
+}
+
+#linha3 td{
+    height: 247px;
+}
+
+#linha4 td{
+    height: 28px;
+}
+
+#linha5 td{
+    width: 424px;
+    height: 424px;
+}
+
+#linha5 td:not(.vazio){
+    border: transparent 1px solid;
+    border-radius: 10px;
+    background-color: #3B4252;
+}
+
+.linhaProdutos td{
+    width: 424px;
+    height: 424px;
+}
+
+.linhaProdutos td:not(.vazio){
+    border: transparent 1px solid;
+    border-radius: 10px;
+    background-color: #3B4252;
+}
+
+.produtos .lista{
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    border: 1px solid black;
+    color: #FFFFFF;
+    background-color: #2e3440;
+    border-radius: 3px;
+    text-align: left;
+    top: 50px
+}
+
+.produtos:hover .lista {
+    visibility: visible;
+}
+
+#tdPesquisa{
+    text-align: right;
+}
+
+footer {
+    background-color: #3B4252;
+}
+
+.rotulo {
+    background-color: #434C5E;
+    border-top: 3px black solid;
+    font-size: large;
+}
+
+#formulario fieldset{
+    width: 10%;
+    border-radius: 10px;
+    border-color: black;
+}
